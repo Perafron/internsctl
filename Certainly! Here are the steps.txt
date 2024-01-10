@@ -1,0 +1,24 @@
+Certainly! Here are the steps represented in the flow diagram for the internsctl script:
+
+Start:
+
+Begin with a rounded rectangle labeled "Start."
+Decision Box:
+
+Use a diamond-shaped box to represent a decision point checking if the provided command is "file getinfo."
+Branches:
+
+If the command is not "file getinfo," show an arrow labeled "Invalid Command" leading to an endpoint.
+If the command is "file getinfo," move to the next step.
+Check for File Name:
+
+Another decision box checks if a file name has been provided.
+If no file name is provided, show an arrow labeled "No File Name Provided" leading to an endpoint.
+If a file name is provided, move to the next step.
+Option Handling:
+
+Represent different options (--size, --permissions, --owner, --last-modified) as additional decision boxes or branches stemming from the "file getinfo" command.
+Each option checks the provided flag and executes the corresponding action (getting file size, permissions, owner, or last modified time).
+End:
+
+End the flowchart with a rounded rectangle labeled "End."
