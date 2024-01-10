@@ -38,3 +38,15 @@ internsctl user list --sudo-only
 
 # Get information about 'hello.txt'
 internsctl file getinfo hello.txt --size
+
+Installation
+Clone the repository: git clone https://github.com/yourusername/internsctl.git
+Navigate to the project directory: cd internsctl
+Make the script executable: chmod +x internsctl.sh
+Contributors
+Your Name (@harshit)
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Replace placeholders like `harshut` and customize the content accordingly. Include actual contributors and update license information based on your project details.
+
