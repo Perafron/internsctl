@@ -12,3 +12,12 @@ Current version: v0.1.0
 
 ```bash
 internsctl [options]
+Options
+cpu getinfo: Get CPU information.
+memory getinfo: Get memory information.
+user create <username>: Create a new user with the specified username.
+user list: List all regular users.
+user list --sudo-only: List users with sudo permissions.
+file getinfo <file-name>: Get information about a file.
+--help: Display usage information.
+--version: Display the version of internsctl.
