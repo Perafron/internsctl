@@ -21,3 +21,20 @@ user list --sudo-only: List users with sudo permissions.
 file getinfo <file-name>: Get information about a file.
 --help: Display usage information.
 --version: Display the version of internsctl.
+# Get CPU information
+internsctl cpu getinfo
+
+# Get memory information
+internsctl memory getinfo
+
+# Create a new user 'john'
+internsctl user create john
+
+# List all regular users
+internsctl user list
+
+# List users with sudo permissions
+internsctl user list --sudo-only
+
+# Get information about 'hello.txt'
+internsctl file getinfo hello.txt --size
